@@ -9,7 +9,7 @@ int main(void)
     int number, output;
 
     /* prompt the user for data  */
-    printf("Enter a number: ");
+    printf("Enter an integer: ");
 
     /* scan the user input from console*/
     scanf("%d", &number);
