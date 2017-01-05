@@ -13,7 +13,9 @@ int main(void)
     scanf("%f", &floating_point_number);
 
     /* now print out usr entered values */
-    printf("You entered the integer: %d\n", &integer);
+    printf("You entered the integer: %d\n", integer);
+
+    printf("You entered the decimal number, rounded to two decimal places: %.2f", floating_point_number);
     return 0;
     
 
