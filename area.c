@@ -12,11 +12,10 @@ int main(void)
     scanf("%d", &radius);
     
     /* calculate area with radius given by usr input  */ 
-
+    area = (int) (3.14159 * radius * radius);
     /* print the result in the console  */
-
+    printf("\n\nThe area of the circle (pi*r^2)= %d\n", area);
     /* close the program  */
     return 0;
-    /*   */ 
 
 }
