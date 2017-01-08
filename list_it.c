@@ -18,7 +18,7 @@ int main( int argc, char *argv[] )
 
     if (( fp = fopen( argv[1], "r" )) == NULL )
     {
-        fprint( stderr, "Error opening file, %s!", argv[1] );
+        fprintf( stderr, "Error opening file, %s!", argv[1] );
         return(1);
     }
     
