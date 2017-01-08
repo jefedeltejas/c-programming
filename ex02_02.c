@@ -1,7 +1,8 @@
 /* ex02_02.c */
 #include <stdio.h>
 
-void display_line(void)
+void display_line(void);
+
 {
     display_line();
     printf("\n Teach Yourself C In One Hour a Day!\n");
