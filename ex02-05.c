@@ -8,7 +8,7 @@ int main(void)
     printf( "Enter your name and press <Enter>:\n");
     fgets( buffer );
 
-     printf( "\nYour name has %d characters and spaces!",
+    printf( "\nYour name has %d characters and spaces!",
 		      strlen( buffer ));
 
     return 0;
