@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 void display_line(void);
-
+int main(void)
 {
     display_line();
     printf("\n Teach Yourself C In One Hour a Day!\n");
