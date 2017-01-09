@@ -22,7 +22,7 @@ int main( void )
 
     /* Perform conversions */
 
-    miles_convered = (float)laps_run/LAPS_PER_MILE;
+    miles_covered = (float)laps_run/LAPS_PER_MILE;
     current_age = CURRENT_YEAR - year_of_birth;
 
     /* Display results on the screen */
