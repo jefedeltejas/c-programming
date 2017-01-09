@@ -5,7 +5,7 @@
 #define LAPS_PER_MILE 4
 
 /* Define a constant for the current year  */
-const int CURRENT_YEAR = 2017
+const int CURRENT_YEAR = 2017;
 
 /* Declare the needed variables */
 float miles_covered;
