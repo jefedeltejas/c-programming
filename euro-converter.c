@@ -13,7 +13,7 @@ int main(void)
 	euro = markka / conversion_rate;
 
 	//output
-	printf("FIM converted to euro: "%.2f", euro);
+	printf("FIM converted to euro: %.2f", euro);
 
 	return 0;
 }
