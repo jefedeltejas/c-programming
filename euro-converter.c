@@ -6,7 +6,7 @@ float conversion_rate = 5.94573;
 int main(void) 
 {
 	// prompt usr for data 
-	printf("Enter an amout in FIM:");
+	printf("Enter an amount in FIM:");
 	scanf("%f", &markka);
 	
 	//calculate amount
