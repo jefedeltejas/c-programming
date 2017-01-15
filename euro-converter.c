@@ -1,6 +1,7 @@
 #include <stdio.h> 
 
-float euro, markka, conversion-rate = 0.00, 0.00, 5.94573;
+float euro, markka; 
+float conversion_rate = 5.94573;
 
 int main(void) 
 {
@@ -9,7 +10,7 @@ int main(void)
 	scanf("%f", &markka);
 	
 	//calculate amount
-	euro = markka / conversion-rate;
+	euro = markka / conversion_rate;
 
 	//output
 	printf("FIM converted to euro: "%.2f", euro);
