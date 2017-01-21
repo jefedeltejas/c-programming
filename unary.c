@@ -26,12 +26,12 @@ int main( void )
 
     printf("Count down!\n");
     printf("\nPost  Pre");
-    print("\n%d    %d", a--, --b);
-    print("\n%d    %d", a--, --b);
-    print("\n%d    %d", a--, --b);
-    print("\n%d    %d", a--, --b);
-    print("\n%d    %d", a--, --b);
-    print("\n%d    %d\n", a--, --b);
+    printf("\n%d    %d", a--, --b);
+    printf("\n%d    %d", a--, --b);
+    printf("\n%d    %d", a--, --b);
+    printf("\n%d    %d", a--, --b);
+    printf("\n%d    %d", a--, --b);
+    printf("\n%d    %d\n", a--, --b);
 
     return 0;
 
