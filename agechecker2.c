@@ -26,6 +26,8 @@
 	    printf("You can vote this year!\n");
 	if (age < 21)
 	    printf("It is illegal for you to get your drink on!");
+	if (birth_year <= 1700 && birth_year >= 1600)
+	    printf("You were born in a Ninja Year!\n");
 
 	return(0);
     }
