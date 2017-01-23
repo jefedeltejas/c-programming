@@ -9,14 +9,14 @@ int main(void)
 
     printf("Enter the first number:");
     scanf("%i", &integer1);
-    printf("\nEnter the second number:");
+    printf("Enter the second number:");
     scanf("%i", &integer2);
 
     sum = integer1 + integer2;
     diff = integer1 - integer2;
     prod = integer1 * integer2;
     //show the output
-    printf("%i+%i=%i\n", integer1, integer2, sum);
+    printf("\n%i+%i=%i\n", integer1, integer2, sum);
     printf("%i-%i=%i\n", integer1, integer2, diff);
     printf("%i*%i=%i\n", integer1, integer2, prod);
 
