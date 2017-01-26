@@ -33,6 +33,7 @@ int number_pressed;
 	case 69:
 	{
 	    printf("69 dude!!!");
+	    break;
 	}
 	default:
 	    printf("Your input is out of range. Fatal error.");
