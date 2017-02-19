@@ -27,7 +27,7 @@ int main(void)
   printf("Total: %.2f", total);
   /* calculate avg */
   average = total/i;
-  printf("Average score: %.2f", average);  
+  printf("Average score: %.2f\n", average);  
  
   return 0;
 }
