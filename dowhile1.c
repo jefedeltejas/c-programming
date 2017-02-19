@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main(void)
 {
   int number_entered, square;
   do
