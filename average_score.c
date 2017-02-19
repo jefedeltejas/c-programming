@@ -5,7 +5,6 @@ int main(void)
   int i;
   float score, total, average;
   
-  total = 0;
   i = 0;
 
   printf("The program calculates the average of scores you enter.\n");
@@ -25,9 +24,10 @@ int main(void)
     }
   }while(score > 0);
   printf("You enterd %i scores\n", i);
+  printf("Total: %f", total);
   /* calculate avg */
   average = total/i;
-  printf("Average score: %.2f", average);  
+  printf("Average score: %f", average);  
  
   return 0;
 }
