@@ -6,7 +6,7 @@ int main()
 
   while(i <= 10)
   {
-    printf("%d\t", i);
+    printf("%d, ", i);
     i++;
   }
   return 0;
