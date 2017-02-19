@@ -9,7 +9,7 @@ int main(void)
 
   for(i = 1; i <= user_integer; i++)
   {
-    printf("%d", i);
+    printf("%d\n", i);
   }
   return 0;
 }
