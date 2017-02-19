@@ -22,6 +22,7 @@ int main(void)
     }
     else if(score < 0) {
       break;
+    }
   }while(score > 0);
   printf("You enterd %i scores\n", i);
   /* calculate avg */
