@@ -12,7 +12,7 @@ int main(void)
   do
   {
     printf("Enter score (4-10):");
-    scanf("%d", &score);
+    scanf("%f", &score);
     
     if(score >= 0){
     
@@ -23,11 +23,11 @@ int main(void)
       break;
     }
   }while(score > 0);
-  printf("You enterd %i scores\n", i);
-  printf("Total: %f", total);
+  printf("You entered %i scores\n", i);
+  printf("Total: %.2f", total);
   /* calculate avg */
   average = total/i;
-  printf("Average score: %f", average);  
+  printf("Average score: %.2f", average);  
  
   return 0;
 }
