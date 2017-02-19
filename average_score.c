@@ -2,8 +2,8 @@
 
 int main(void)
 {
-  int i, score, running_total = 0;
-  float average;
+  int i, score;
+  float running_total = 0, average;
   
   printf("The program calculates the average of scores you enter.");
   printf("End with a negative integer.");
