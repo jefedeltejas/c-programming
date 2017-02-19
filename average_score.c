@@ -15,13 +15,13 @@ int main(void)
     printf("Enter score (4-10):");
     scanf("%d", &score);
     
-    i++;
     running_total += score;
+    i++;
   }
-  printf("Score total is", score);
+  printf("You enterd %i scores\n", i);
   /* calculate avg */
   average = running_total / i;
-  printf("Average score is %.2f", average);  
+  printf("Average score: %.2f", average);  
  
   return 0;
 }
