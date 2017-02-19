@@ -23,7 +23,7 @@ int main(void)
       break;
     }
   }while(score > 0);
-  printf("You entered %i scores\n", i);
+  printf("You entered %i scores.\n", i);
   printf("Total: %.2f", total);
   /* calculate avg */
   average = total/i;
