@@ -15,8 +15,11 @@ int main(void)
     printf("Enter score (4-10):");
     scanf("%d", &score);
     
+    if(score >= 0){
+    
     running_total += score;
     i++;
+    }
   }while(score > 0);
   printf("You enterd %i scores\n", i);
   /* calculate avg */
