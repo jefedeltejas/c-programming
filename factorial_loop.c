@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  int i, factorial, user_number;
+  int i, user_number, factorial = 1;
 
   printf("Enter an integer: ");
   scanf("%i", &user_number);
