@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  int i, score, running_total;
+  int i, score, running_total = 0;
   float average;
   
   printf("The program calculates the average of scores you enter.");
