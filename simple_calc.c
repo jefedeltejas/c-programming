@@ -42,7 +42,7 @@ int sum(int num1, int num2)
     int sum;
 
     sum = num1 + num2;
-
+    printf("%d + %d = %d\n\n", num1, num2, sum);
     return sum;
 }
 int diff(int num1, int num2)
