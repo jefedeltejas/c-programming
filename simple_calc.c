@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int sum(int, int);
-float diff(int, int);
-float product(int, int);
+int diff(int, int);
+int product(int, int);
 
 int main()
 {
@@ -44,4 +44,16 @@ int sum(int num1, int num2)
     sum = num1 + num2;
 
     return sum;
+}
+int diff(int num1, int num2)
+{
+    int diff;
+    diff = num1 - num2;
+    return diff;
+}
+int product(int num1, int num2)
+{
+    int product;
+    product = num1 * num2;
+    return product;
 }
