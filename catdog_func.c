@@ -39,7 +39,7 @@ void cat(void)
 }
 void dog(void)
 {
-    print("The dog says bow wow wow, yippy yo yippy yea!");
+    printf("The dog says bow wow wow, yippy yo yippy yea!");
 }
 void cow(void)
 {
