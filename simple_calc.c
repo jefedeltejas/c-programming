@@ -49,11 +49,13 @@ int diff(int num1, int num2)
 {
     int diff;
     diff = num1 - num2;
+    printf("%d + %d = %d\n\n", num1, num2, diff);
     return diff;
 }
 int product(int num1, int num2)
 {
     int product;
     product = num1 * num2;
+    printf("%d + %d = %d\n\n", num1, num2, product);
     return product;
 }
