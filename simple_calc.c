@@ -37,11 +37,11 @@ int main()
       return 0;
 }
 
-int sum(int num1, int num2)
+int sum(int first_number, int second_number)
 {
-    int num1, num2, sum;
+    int first_number, second_number, sum;
 
-    sum = num1 + num2;
+    sum = first_number + second_number;
 
     return sum;
 }
