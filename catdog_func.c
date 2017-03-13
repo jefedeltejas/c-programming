@@ -35,13 +35,13 @@ int main()
 
 void cat(void)
 {
-    printf("The cat says meow!");
+    printf("The cat says meow!\n\n");
 }
 void dog(void)
 {
-    printf("The dog says bow wow wow, yippy yo yippy yea!");
+    printf("The dog says bow wow wow, yippy yo yippy yea!\n\n");
 }
 void cow(void)
 {
-    printf("The cow says moo moo, suckah!!");
+    printf("The cow says moo moo, suckah!!\n\n");
 }
