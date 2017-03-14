@@ -49,13 +49,11 @@ void sum(void)
 }
 void diff(void)
 {   
-    int diff;
     diff = num1-num2;
     printf("%d - %d = %d\n\n", num1, num2, diff);
 }
 void product(void)
 {
-    int product;
     product = num1 * num2;
     printf("%d * %d = %d\n\n", num1, num2, product);
 }
