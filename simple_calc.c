@@ -4,9 +4,11 @@ void sum(void);
 void diff(void);
 void product(void);
 
+int num1, num2, diff, product;
+
 int main()
 {
-    int choice, first_number, second_number;
+    int choice;
     do{
 
         printf("1:sum of two numbers\n2:difference of two numbers\n3:product of two numbers\n");
@@ -19,9 +21,9 @@ int main()
 	  return 0;
         }
 	printf("Enter the first number:");
-        scanf("%d", &first_number);
+        scanf("%d", &num1);
         printf("Enter the second number:");
-        scanf("%d", &second_number);
+        scanf("%d", &num2);
 
         if(choice == 1) {
           sum();
@@ -42,14 +44,13 @@ int main()
 
 void sum(void)
 {
-    sum = num1 + num2
-    printf("%d + %d = %d\n\n", num1, num2, sum);
+    printf("%d + %d = %d\n\n", num1, num2, num1+num2);
 
 }
 void diff(void)
-{
+{   
     int diff;
-    diff = num1 - num2
+    diff = num1-num2;
     printf("%d - %d = %d\n\n", num1, num2, diff);
 }
 void product(void)
