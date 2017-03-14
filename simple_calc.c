@@ -4,7 +4,7 @@ void sum(void);
 void diff(void);
 void product(void);
 
-int num1, num2, diff, product;
+int num1, num2;
 
 int main()
 {
@@ -49,8 +49,7 @@ void sum(void)
 }
 void diff(void)
 {   
-    diff = num1-num2;
-    printf("%d - %d = %d\n\n", num1, num2, diff);
+    printf("%d - %d = %d\n\n", num1, num2, num1-num2);
 }
 void product(void)
 {
