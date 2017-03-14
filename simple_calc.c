@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int sum(int, int);
-int diff(int, int);
-int product(int, int);
+void sum(void);
+void diff(void);
+void product(void);
 
 int main()
 {
@@ -13,21 +13,24 @@ int main()
         printf("<0: terminate the program\n");
         printf("Select calculation:");
         scanf("%d", &choice);
-	printf("Enter the first number:");
-	scanf("%d", &first_number);
-	printf("Enter the second number:");
-	scanf("%d", &second_number);
+
         if(choice < 0) {
-          printf("Terminating the program...");
+          printf("Terminating the program...\n");
+	  return 0;
         }
-        else if(choice == 1) {
-          sum(first_number, second_number);
+	printf("Enter the first number:");
+        scanf("%d", &first_number);
+        printf("Enter the second number:");
+        scanf("%d", &second_number);
+
+        if(choice == 1) {
+          sum();
         }
         else if(choice == 2) {
-          diff(first_number, second_number);
+          diff();
         }
         else if(choice == 3) {
-          product(first_number, second_number);
+          product();
         }
         else {
           printf("You entered an invalid number.\n\n");
@@ -37,25 +40,21 @@ int main()
       return 0;
 }
 
-int sum(int num1, int num2)
+void sum(void)
 {
-    int sum;
-
-    sum = num1 + num2;
+    sum = num1 + num2
     printf("%d + %d = %d\n\n", num1, num2, sum);
-    return sum;
+
 }
-int diff(int num1, int num2)
+void diff(void)
 {
     int diff;
-    diff = num1 - num2;
+    diff = num1 - num2
     printf("%d - %d = %d\n\n", num1, num2, diff);
-    return diff;
 }
-int product(int num1, int num2)
+void product(void)
 {
     int product;
     product = num1 * num2;
     printf("%d * %d = %d\n\n", num1, num2, product);
-    return product;
 }
