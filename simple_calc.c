@@ -53,6 +53,7 @@ void diff(void)
 }
 void product(void)
 {
+    int product;
     product = num1 * num2;
     printf("%d * %d = %d\n\n", num1, num2, product);
 }
