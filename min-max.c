@@ -9,7 +9,7 @@
 int minNum(int, int, int);
 int maxNum(int, int, int);
 
-int num1, num2, num3, min, max;
+int num1, num2, num3;
 
 int main(void)
 {
