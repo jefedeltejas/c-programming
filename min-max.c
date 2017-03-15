@@ -23,8 +23,9 @@ int main(void)
     
     min = minNum(num1, num2, num3);
     max = maxNum(num1, num2, num3);
-    printf("Among the numbers you entered,\nthe largest was %d and the smallest was %d.", max, min);
-
+    printf("Among the numbers you entered,\nthe largest was %d and the smallest was %d.\n", max, min);
+ 
+    return 0;
 }
 
 int minNum(int a, int b, int c)
