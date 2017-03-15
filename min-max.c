@@ -30,22 +30,15 @@ int main(void)
 
 int minNum(int a, int b, int c)
 {
-    int smallest;
- 
-    if(a < b)
+    if(a < b && a < c)
     {
-      a = smallest;
-    }else
+      return a;
+    }else if(b < a && b < c)
     {
-      b = smallest;
+      return b;
+    }else{
+      return c;
     }
-
-    if(c < smallest)
-    {
-      c = smallest;
-    }
-
-    return smallest;
 
 }
 
@@ -53,19 +46,13 @@ int maxNum(int g, int t, int s)
 {
 /* doesn't matter what I name the vars :) -dueces  */
 
-    int largest;
-
-    if(g > t)
+    if(g > t && g > s)
     {
-      g = largest;
-    }else{
-      t = largest;
-    }
-
-    if(largest < s)
+      return g;
+    }else if(t > g && t > s)
     {
-      return s;
+      return t;
     }else {
-    return largest;
+      return s;
     }
 }
