@@ -9,7 +9,7 @@
 int minNum(int, int, int);
 int maxNum(int, int, int);
 
-int num1, num2, num3;
+int num1, num2, num3, min, max;
 
 int main(void)
 {
@@ -30,22 +30,22 @@ int main(void)
 
 int minNum(int a, int b, int c)
 {
-    int min;
+    int smallest;
  
     if(a < b)
     {
-      a = min;
+      a = smallest;
     }else
     {
-      b = min;
+      b = smallest;
     }
 
-    if(c < min)
+    if(c < smallest)
     {
-      c = min;
+      c = smallest;
     }
 
-    return min;
+    return smallest;
 
 }
 
@@ -53,18 +53,19 @@ int maxNum(int g, int t, int s)
 {
 /* doesn't matter what I name the vars :) -dueces  */
 
-    int max;
+    int largest;
 
     if(g > t)
     {
-      g = max;
+      g = largest;
     }else{
-      t = max;
+      t = largest;
     }
 
-    if(max < s)
+    if(largest < s)
     {
-      s = max;
+      return s;
+    }else {
+    return largest;
     }
-    return max;
 }
