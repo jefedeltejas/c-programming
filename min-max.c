@@ -22,7 +22,7 @@ int main(void)
     scanf("%d", &num3);
     
     min = minNum(num1, num2, num3);
-    max = minNum(num1, num2, num3);
+    max = maxNum(num1, num2, num3);
     printf("Among the numbers you entered,\nthe largest was %d and the smallest was %d.", max, min);
 
 }
