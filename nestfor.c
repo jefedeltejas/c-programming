@@ -3,7 +3,7 @@
 #include <stdio.h>
 void print_ttable(int outer, int inner);
 
-main()
+int main(void)
 {
     int inner = 10;
     int outer = 10;
