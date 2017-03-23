@@ -4,15 +4,16 @@ int main(void)
 {
 
   int numbers[100];
-  int index = 0;
+  int index,input = 0;
   
   printf("Program asks for up to 100 numbers to print backward order.");
   printf("\nTo stop the loop, input the number 1137");
 
-  while( index<100 || index!=1137)
+  while( index < 100 && input != 1137)
   {
     printf("Enter the %d. number: ", index+1);
-    scanf("%d", &numbers[index]);
+    scanf("%d", &input);
+    numbers[index] = input;
     index++;
   }
 
