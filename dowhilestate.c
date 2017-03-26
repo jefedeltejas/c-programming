@@ -3,6 +3,8 @@
 #include <stdio.h>
 
 int get_menu_choice( void );
+
+int main( void )
 {
 
   int choice;
