@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int get_menu_choice( void )
+int get_menu_choice( void );
 {
 
   int choice;
