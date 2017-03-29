@@ -14,7 +14,7 @@ int main( void )
 
     unsigned unsigned_var = 0;
 
-    while (choice == 1)
+    while (choice != QUIT)
     {
 	choice = get_menu_choice();
 
@@ -36,7 +36,7 @@ int main( void )
 	  scanf( "%u", &unsigned_var );
 	}
     }
-    printf("\nYour values are: int: %d float: %f unsigned: %u \n",\	
+    printf("\nYour values are: int: %d float: %f unsigned: %u \n",	
 				int_var, float_var, unsigned_var );
 
   return 0;
