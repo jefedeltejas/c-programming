@@ -1,0 +1,10 @@
+1. Print on the console: "Gimme a number!: "
+2. Wait on the user to laze about until they finally enter a number with the keypad
+3. Take the input from user and store value in a variable as int named "first_num"
+4. Print on console: "Gimme another number!: "
+5. Wait for user input
+6. Store user input in int variable: "second_number"
+7. DoFoo on nums; Calculate sum --> first_number + second_number = sum
+8. Store result of calculation in int variable: sum
+9. Print text on console: "The sum of the two numbers is: 'sum' "
+10. Quit
